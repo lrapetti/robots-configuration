@@ -54,7 +54,7 @@
         <param name="controlLaw">    Pid_inTrq_outPwm </param> 
         <param name="fbkControlUnits">  machine_units                              </param> 
         <param name="outputControlUnits">  machine_units                              </param> 
-        <param name="trq_kp">            -80      0      0      0      0      0      0      0      0      0      0      0    </param>       
+        <param name="trq_kp">            -0      0      0      0      0      0      0      0      0      0      0      0    </param>       
         <param name="trq_kd">              0      0      0      0      0      0      0      0      0      0      0      0    </param>       
         <param name="trq_ki">              0      0      0      0      0      0      0      0      0      0      0      0    </param>  
         <param name="trq_maxOutput">    1333      0      0      0      0      0      0      0      0      0      0      0    </param>       
