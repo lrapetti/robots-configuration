@@ -71,7 +71,7 @@
         <param name="trq_kff">             1          1          1          1     </param>
         <param name="trq_kbemf">           0          0          0          0     </param>
         <param name="trq_filterType">      0          0          0          0     </param>
-        <param name="trq_ktau">          0.44      -0.56       0.68       0.63    </param>
+        <param name="trq_ktau">            0.46      -0.56       0.62       0.88    </param>
 </group>
 
     <group name="2FOC_CUR_CONTROL">
