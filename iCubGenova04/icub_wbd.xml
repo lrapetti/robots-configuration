@@ -32,15 +32,16 @@
 
     <!-- LEFT LEG -->
     <xi:include href="hardware/motorControl/left_leg-eb6-j0_3-mc.xml" />
+    <xi:include href="hardware/motorControl/left_leg-eb6-j0_3-mcc.xml" />
     <xi:include href="hardware/motorControl/left_leg-eb7-j4_5-mc.xml" />
+    <xi:include href="hardware/motorControl/left_leg-eb7-j4_5-mcc.xml" />
     <xi:include href="wrappers/motorControl/left_leg-mc_wrapper.xml" />
 
     <!-- RIGHT LEG -->
     <xi:include href="hardware/motorControl/right_leg-eb8-j0_3-mc.xml" />
+    <xi:include href="hardware/motorControl/right_leg-eb8-j0_3-mcc.xml" />
     <xi:include href="hardware/motorControl/right_leg-eb9-j4_5-mc.xml" />
-    <!-- CURRENT CONTROL HIJACKING -->
     <xi:include href="hardware/motorControl/right_leg-eb9-j4_5-mcc.xml" />
-    <!-- END CURRENT CONTROL HIJACKING -->
     <xi:include href="wrappers/motorControl/right_leg-mc_wrapper.xml" />
 
 
@@ -103,7 +104,7 @@
     <xi:include href="estimators/wholebodydynamics.xml" />
 
     <!-- ROS -->
-    <xi:include href="wrappers/motorControl/icub_ros_wrapper.xml" />   
+    <xi:include href="wrappers/motorControl/icub_ros_wrapper.xml" />
 
     </devices>
 </robot>

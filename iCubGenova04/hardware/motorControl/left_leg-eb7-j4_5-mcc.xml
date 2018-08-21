@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE devices PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
-<device xmlns:xi="http://www.w3.org/2001/XInclude" name="right_leg-eb9-j4_5-mcc" type="motorCurrentControl">
+<device xmlns:xi="http://www.w3.org/2001/XInclude" name="left_leg-eb7-j4_5-mcc" type="motorCurrentControl">
     <group name="CURRENT_PIDS">
          <param name="kp">(  0.0           0.0 )</param>
          <param name="ki">( 0.0           0.0 )</param>
@@ -14,7 +14,7 @@
 
     <action phase="startup" level="5" type="attach">
         <paramlist name="networks">
-            <elem name="HijackedControlBoard"> right_leg-eb9-j4_5-mc </elem>
+            <elem name="HijackedControlBoard"> left_leg-eb7-j4_5-mc </elem>
         </paramlist>
     </action>
 </device>
