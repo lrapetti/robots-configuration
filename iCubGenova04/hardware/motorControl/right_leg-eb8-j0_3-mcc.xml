@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE devices PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
-<device xmlns:xi="http://www.w3.org/2001/XInclude" name="right_leg-eb8-j0_3-mcc" type="motorCurrentControl">
-    <group name="CURRENT_PIDS">
-            <param name="kp">(   0.0         0.0        0.0       0.0    )</param>
-            <param name="ki">(   0.0         0.0        0.0       0.0    )</param>
-            <param name="maxInt">(   0.0         0.0        0.0       0.0    )</param>
-            <param name="kff">(   3.403561       2.821952       3.313299       3.280952    )</param> 
-            <param name="kbef">(   0.002224       0.002076       0.002157       0.002212   )</param> 
-            <param name="offset">(   0.742495       -0.983387       0.138638       -0.050949   )</param> 
-            <param name="maxPwm">(   80.0         80.0        80.0       80.0    )</param>
-    </group>
+<devices robot="iCubGenova04" build="1">
+	<device xmlns:xi="http://www.w3.org/2001/XInclude" name="right_leg-eb8-j0_3-mcc" type="motorCurrentControl">
+	    <group name="CURRENT_PIDS">
+		    <param name="kp">(   0.0         0.0        0.0       0.0    )</param>
+		    <param name="ki">(   0.0         0.0        0.0       0.0    )</param>
+		    <param name="maxInt">(   0.0         0.0        0.0       0.0    )</param>
+		    <param name="kff">(   3.403561       2.821952       3.313299       3.280952    )</param> 
+		    <param name="kbef">(   0.002224       0.002076       0.002157       0.002212   )</param> 
+		    <param name="offset">(   0.742495       -0.983387       0.138638       -0.050949   )</param> 
+		    <param name="maxPwm">(   80.0         80.0        80.0       80.0    )</param>
+	    </group>
 
-    <action phase="startup" level="5" type="attach">
-        <paramlist name="networks">
-            <elem name="HijackedControlBoard"> right_leg-eb8-j0_3-mc </elem>
-        </paramlist>
-    </action>
-</device>
+	    <action phase="startup" level="5" type="attach">
+		<paramlist name="networks">
+		    <elem name="HijackedControlBoard"> right_leg-eb8-j0_3-mc </elem>
+		</paramlist>
+	    </action>
+	</device>
+</devices>
 
