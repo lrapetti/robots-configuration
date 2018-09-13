@@ -4,12 +4,13 @@
 <devices robot="iCubGenova04" build="1">
 	<device xmlns:xi="http://www.w3.org/2001/XInclude" name="right_leg-eb9-j4_5-mcc" type="motorCurrentControl">
 	    <group name="CURRENT_PIDS">
-		 <param name="kp">(  1.0           0.6 )</param>
-		 <param name="ki">( 0.4           0.2 )</param>
+		 <param name="kp">(  0.0           0.0 )</param>
+		 <param name="ki">( 0.0           0.0 )</param>
 		 <param name="maxInt">(  10.0           10.0 )</param>
 		 <param name="kff">(  2.696009       4.331915    )</param> 
 		 <param name="kbef">(    0.001709       0.002729    )</param> 
-		 <param name="offset">(  0.331603       -0.429394    )</param> 
+                 <param name="wbef">(   0.8         0.8     )</param>
+	  	 <param name="offset">(  0.331603       -0.429394    )</param> 
 		 <param name="maxPwm">(   80.0           80.0  )</param>
 	    </group>
 
