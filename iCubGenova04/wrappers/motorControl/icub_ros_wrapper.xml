@@ -7,9 +7,9 @@
       <param name="period"> 10 </param>
       <param name="name">   /icub04/all_joints </param>
       <param name="joints"> 50 </param>
-      
+
       <paramlist name="networks">
-       
+
 
         <elem name="head_firstset">   0  1   0  1 </elem>  <!-- 2 -->
         <elem name="head_secondset">  2  2   0  0 </elem>  <!-- 1 -->
@@ -38,29 +38,29 @@
         <param name="ROS_topicName">  /icub04/joint_states </param>
         <param name="ROS_nodeName">   /icub04/joint_state_publisher </param>
       </group>
-      
+
       <action phase="startup" level="5" type="attach">
-        <paramlist name="networks">  
-   
-         <elem name="head_firstset">  head-eb20-j0_1-mc    </elem>     
-         <elem name="head_secondset">  head-eb21-j2_5-mc    </elem>     
+        <paramlist name="networks">
+
+         <elem name="head_firstset">  head-eb20-j0_1-mc    </elem>
+         <elem name="head_secondset">  head-eb21-j2_5-mc    </elem>
          <elem name="torso">       torso-eb5-j0_2-mc   </elem>
 
  	 <elem name="right_arm_firstset">  right_arm-eb3-j0_3-mc </elem>
-         <elem name="right_arm_secondset"> right_arm-eb27-j4_7-mc </elem> 
-         <elem name="right_arm_thirdset">  right_arm-eb28-j8_11-mc </elem> 
+         <elem name="right_arm_secondset"> right_arm-eb27-j4_7-mc </elem>
+         <elem name="right_arm_thirdset">  right_arm-eb28-j8_11-mc </elem>
 	 <elem name="right_arm_fourthset"> right_arm-eb29-j12_15-mc </elem>
 
  	 <elem name="left_arm_firstset">  left_arm-eb1-j0_3-mc </elem>
-         <elem name="left_arm_secondset">left_arm-eb24-j4_7-mc </elem> 
-         <elem name="left_arm_thirdset">  left_arm-eb25-j8_11-mc </elem> 
+         <elem name="left_arm_secondset">left_arm-eb24-j4_7-mc </elem>
+         <elem name="left_arm_thirdset">  left_arm-eb25-j8_11-mc </elem>
 	 <elem name="left_arm_fourthset">  left_arm-eb26-j12_15-mc </elem>
 
-         <elem name="left_leg_firstset">  left_leg-eb6-j0_3-mc </elem> 
-	 <elem name="left_leg_secondset"> left_leg-eb7-j4_5-mc </elem>
+         <elem name="left_leg_firstset">  left_leg-eb6-j0_3-jtcvc </elem> 
+	 <elem name="left_leg_secondset"> left_leg-eb7-j4_5-jtcvc </elem>
 
-         <elem name="right_leg_firstset">  right_leg-eb8-j0_3-mc </elem> 
-	 <elem name="right_leg_secondset"> right_leg-eb9-j4_5-mc </elem>
+         <elem name="right_leg_firstset">  right_leg-eb8-j0_3-jtcvc </elem>
+	 <elem name="right_leg_secondset"> right_leg-eb9-j4_5-jtcvc </elem>
 
 
          </paramlist>
@@ -69,6 +69,3 @@
       <action phase="shutdown" level="5" type="detach" />
 
   </device>
-
-
-
