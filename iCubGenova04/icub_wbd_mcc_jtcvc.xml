@@ -39,6 +39,7 @@
     <xi:include href="hardware/motorControl/left_leg-eb7-j4_5-jtcvc.xml" />
     <xi:include href="wrappers/motorControl/left_leg-mc_wrapper_mcc_jtcvc.xml" />
 
+
     <!-- RIGHT LEG -->
     <xi:include href="hardware/motorControl/right_leg-eb8-j0_3-mc.xml" />
     <xi:include href="hardware/motorControl/right_leg-eb8-j0_3-mcc.xml" />
